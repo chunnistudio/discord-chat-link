@@ -11,7 +11,7 @@ Now, go to Bot option and make your bot private by turning off the public bot op
 ![Public bot](img/discord-mod-auth-flow.png)
 
 At the bottom, turn on all the Privilege Gateway Intents
-![Gateway Intents](img\discord-mod-gateway-intents.png)
+![Gateway Intents](img/discord-mod-gateway-intents.png)
 
 
 

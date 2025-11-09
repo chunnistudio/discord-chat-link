@@ -44,6 +44,7 @@ Go to Configuration > Advanced and activate Developer Mode
 Then, create a new Text channel, ***Make sure the bot have the roles needed in your server to see the new text channel***
 
 After that, right click the text channel and there will be a option to copy th Channel ID
+
 ![Channel Id](img/discord-channelid.png)
 
 Copy that and put it inside th mod config's fil

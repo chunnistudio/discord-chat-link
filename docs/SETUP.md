@@ -18,6 +18,7 @@ At the bottom, turn on all the Privilege Gateway Intents
 # How to invite the bot to my server
 
 Go to Discord Developer Portal, enter the OAuth2 option and copy the Client ID
+
 ![client id](img/discord-mod-clientid.png)
 
 Go to this website https://discordapi.com/permissions.html

@@ -38,6 +38,8 @@ dependencies {
 	// To change the versions see the gradle.properties file
 	minecraft "com.mojang:minecraft:${project.minecraft_version}"
 	implementation("net.dv8tion:JDA:6.1.1")
+	implementation('club.minnced:discord-webhooks:0.8.4')
+	addtojar("club.minnced:discord-webhooks:0.8.4")
 	addtojar("net.dv8tion:JDA:6.1.1")
 	mappings loom.officialMojangMappings()
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"

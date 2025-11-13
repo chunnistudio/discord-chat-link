@@ -30,8 +30,10 @@ public class PropertiesLoader {
             boolean isCreated = propertiesFile.createNewFile();
             if(isCreated) {
                 FileWriter writer = new FileWriter("config/discord-link.properties");
+                writer.write("mode=".concat(ModConstants.MODE_BOTS).concat("\n"));
                 writer.write("bot.token=".concat(BotConstant.BOT_TOKEN).concat("\n"));
-                writer.write("channel.id=".concat(BotConstant.CHANNEL_ID));
+                writer.write("channel.id=".concat(BotConstant.CHANNEL_ID).concat("\n"));
+                writer.write("webhook.url=".concat(BotConstant.WEBHOOK_URL).concat("\n"));
                 writer.close();
             }
 
